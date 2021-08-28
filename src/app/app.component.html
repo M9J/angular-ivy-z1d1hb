@@ -1,2 +1,2 @@
-<hello name={{name}}>
-  <ui-button>hi</ui-button>
+<hello name={{name}} *ngIf="isHeaderVisible"></hello>
+<ui-button label="hi" (onClick)="onButtonClick()"></ui-button>
